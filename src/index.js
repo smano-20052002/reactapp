@@ -3,15 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 import reportWebVitals from './reportWebVitals';
-import NavBarComponent from './Component/NavBarComponent';
-import RouteSetting from './Routing/RouteSetting';
+import Master from './Routing/Master';
 import 'bootstrap/dist/js/bootstrap.bundle';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap'
+import RouteSetting from './Routing/RouteSetting';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouteSetting/>
+    <Master/>
+    
   </React.StrictMode>
 );
 

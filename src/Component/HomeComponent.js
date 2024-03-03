@@ -4,8 +4,7 @@ import NavBarComponent from './NavBarComponent'
 function HomeComponent() {
   return (
     <>
-      <NavBarComponent />
-      <main className='mainbg'>
+      <main className='main mainbg'>
 
       </main>
     </>
